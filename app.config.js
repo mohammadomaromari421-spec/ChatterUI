@@ -2,13 +2,13 @@ const IS_DEV = process.env.APP_VARIANT === 'development'
 
 module.exports = {
     expo: {
-        name: IS_DEV ? 'ChatterUI (DEV)' : 'ChatterUI',
+        name: IS_DEV ? 'Dr Zaka (DEV)' : 'Dr Zaka',
         newArchEnabled: true,
-        slug: 'ChatterUI',
+        slug: 'Dr Zaka',
         version: '0.9.0',
         orientation: 'default',
         icon: './assets/images/icon.png',
-        scheme: 'chatterui',
+        scheme: 'Dr Zaka',
         userInterfaceStyle: 'automatic',
         assetBundlePatterns: ['**/*'],
         ios: {
